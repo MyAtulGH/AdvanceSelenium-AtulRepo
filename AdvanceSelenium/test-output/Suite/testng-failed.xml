@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test_firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="CampaignTest.createCampaignn">
+        <methods>
+          <include name="createCampaignTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CampaignTest.createCampaignn -->
+      <class name="ContactTest.createContactt">
+        <methods>
+          <include name="createContactTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ContactTest.createContactt -->
+    </classes>
+  </test> <!-- Test_firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
