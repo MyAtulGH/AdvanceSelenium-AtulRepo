@@ -26,7 +26,7 @@ public class createProductt {
 
 //	@Parameters("browser")
 	@Test(groups= {"Integration"})
-	public void createProductTest() throws InterruptedException, EncryptedDocumentException, IOException 
+	public void addProductTest() throws InterruptedException, EncryptedDocumentException, IOException 
 	{
 		PropertiesFileUtility propUtil=new PropertiesFileUtility();
 		String BROWSER = propUtil.readingDataFromPropFile("browser");
